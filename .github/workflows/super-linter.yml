@@ -30,4 +30,3 @@ jobs:
         with:
           # Exclude README.md from linting
           IGNORE: 'README.md'
-          IGNORE: 'super-linter.yml'

@@ -47,14 +47,6 @@ jobs:
           # list of changed files within `super-linter`
           fetch-depth: 0
 
-      ###############################
-      # Exclude readme.md from check #
-      ###############################
-      - name: Exclude readme.md
-        run: |
-          git restore --staged --worktree readme.md
-          git update-index --skip-worktree readme.md
-
       ################################
       # Run Linter against code base #
       ################################
